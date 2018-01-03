@@ -1,0 +1,29 @@
+ <meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script> 
+
+<link rel="stylesheet" href="heroDetail.css">
+
+
+<div class='container' id='heroDetail'>
+<img class='ebook-img col-xs-12 col-sm-3' src='MHFC.jpg'>
+<ul class='details-list col-xs-12 col-sm-6'> 
+<li><span>ID: {{$ctrl.ebook.id}}</span></li>
+<li><span>Title: {{$ctrl.ebook.title}}</span></li>
+<li><span>Price: {{$ctrl.ebook.Price}}</span></li>
+<li><span>description: {{$ctrl.ebook.description}}</span></li>
+<li><span>image: {{$ctrl.ebook.image}}</span></li>
+
+<likes ebook-id="{{$ctrl.ebook.id}}"> </likes>
+</ul>
+
+
+
+</div>
+<!-- 
+Copyright 2017 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

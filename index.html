@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<link rel="stylesheet" href="index.css">
+	<script src="app.js"></script>
+	<script src="ebookDetails/ebookDetails.js"></script>
+	<script src="navbarComp/navbarComp.js"></script>
+	<title>KRE Store</title>
+</head>
+
+<body ng-app="myApp">
+	<div class="content" ng-controller='MainCtrl as ctrl'>
+		<div class="container">
+			<header class="page-header">
+				<h1>KRE - ebooks Store </h1>
+			</header>
+		</div>
+		<navbar-comp user-id="ctrl.userId" user-privel="ctrl.userPrivel"></navbar-comp>
+		<div class="container">
+			<ul class="row list-unstyled">
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item well">
+					<ebook-details ebook="ctrl.ebook1"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item well">
+					<ebook-details ebook="ctrl.ebook2"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item well">
+					<ebook-details ebook="ctrl.ebook3"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item well">
+					<ebook-details ebook="ctrl.ebook1"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item well">
+					<ebook-details ebook="ctrl.ebook2"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item  well">
+					<ebook-details ebook="ctrl.ebook3"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item well">
+					<ebook-details ebook="ctrl.ebook1"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item well">
+					<ebook-details ebook="ctrl.ebook2"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item well">
+					<ebook-details ebook="ctrl.ebook3"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item well">
+					<ebook-details ebook="ctrl.ebook1"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item well">
+					<ebook-details ebook="ctrl.ebook2"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item well">
+					<ebook-details ebook="ctrl.ebook3"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item well">
+					<ebook-details ebook="ctrl.ebook1"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item well">
+					<ebook-details ebook="ctrl.ebook2"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item  well">
+					<ebook-details ebook="ctrl.ebook3"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item well">
+					<ebook-details ebook="ctrl.ebook1"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item well">
+					<ebook-details ebook="ctrl.ebook2"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item well">
+					<ebook-details ebook="ctrl.ebook3"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item well">
+					<ebook-details ebook="ctrl.ebook1"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item well">
+					<ebook-details ebook="ctrl.ebook2"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item well">
+					<ebook-details ebook="ctrl.ebook3"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item well">
+					<ebook-details ebook="ctrl.ebook1"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item well">
+					<ebook-details ebook="ctrl.ebook2"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item  well">
+					<ebook-details ebook="ctrl.ebook3"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item well">
+					<ebook-details ebook="ctrl.ebook1"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item well">
+					<ebook-details ebook="ctrl.ebook2"></ebook-details>
+				</li>
+				<li class="col-xs-12 col-sm-6 col-lg-4 ebook-item well">
+					<ebook-details ebook="ctrl.ebook3"></ebook-details>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<footer class="container-fluid"></footer>
+</body>
+
+</html>
